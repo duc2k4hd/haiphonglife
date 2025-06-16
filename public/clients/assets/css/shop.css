@@ -1,0 +1,453 @@
+.shop_haiphonglife_shop {
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+}
+
+.shop_haiphonglife_shop_breadcrumb {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 0.9rem;
+    color: #555;
+    margin: 1rem 0;
+}
+
+.shop_haiphonglife_shop_breadcrumb a {
+    text-decoration: none;
+    color: var(--primary-color);
+    transition: color 0.3s ease;
+}
+
+.shop_haiphonglife_shop_breadcrumb a:hover {
+    color: var(--secondary-color);
+}
+
+.shop_haiphonglife_shop_breadcrumb span.separator {
+    margin: 0 0.5rem;
+    color: #ccc;
+}
+
+.shop_haiphonglife_shop_banner {
+    width: 100%;
+    position: relative;
+    max-width: 100%;
+    max-height: 240px;
+    aspect-ratio: 100 / 240;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: var(--border-radius);
+}
+
+.shop_haiphonglife_shop_banner_image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+}
+
+.shop_haiphonglife_shop_products {
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 20% auto;
+    column-gap: 10px;
+}
+
+.shop_haiphonglife_shop_products_filter {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Danh mục */
+.shop_haiphonglife_shop_products_filter_categories_title_name {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.shop_haiphonglife_shop_products_filter_categories_content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.shop_haiphonglife_shop_products_filter_categories_content_category {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.4rem;
+    border-radius: 6px;
+    transition: background 0.3s ease;
+    cursor: pointer;
+}
+
+.shop_haiphonglife_shop_products_filter_categories_content_category:hover {
+    background: #f0f0f0;
+}
+
+.shop_haiphonglife_shop_products_filter_categories_content_category_image img {
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+.shop_haiphonglife_shop_products_filter_categories_content_category_text p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.shop_haiphonglife_shop_products_filter_categories_content_category_quantity span {
+    font-size: 0.8rem;
+    color: #999;
+}
+
+/* Bộ lọc chung */
+.shop_haiphonglife_shop_products_filter_price,
+.shop_haiphonglife_shop_products_filter_color,
+.shop_haiphonglife_shop_products_filter_size {
+    border-top: 1px solid #eee;
+    padding-top: 0.8rem;
+}
+
+.shop_haiphonglife_shop_products_filter_price_title,
+.shop_haiphonglife_shop_products_filter_color_title,
+.shop_haiphonglife_shop_products_filter_size_title {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.shop_haiphonglife_shop_products_filter_price_content label,
+.shop_haiphonglife_shop_products_filter_color_content label,
+.shop_haiphonglife_shop_products_filter_size_content label {
+    display: block;
+    font-size: 0.9rem;
+    color: #444;
+    margin-bottom: 0.3rem;
+    cursor: pointer;
+}
+
+.shop_haiphonglife_shop_products_filter input[type="checkbox"] {
+    accent-color: #007bff;
+    margin-right: 0.3rem;
+}
+
+/* Sản phẩm mới */
+.shop_haiphonglife_shop_products_filter_new_products {
+    border-top: 1px solid #eee;
+    padding-top: 0.8rem;
+}
+
+.shop_haiphonglife_shop_products_filter_new_products_item {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.shop_haiphonglife_shop_products_filter_new_products_item_image img {
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+.shop_haiphonglife_shop_products_filter_new_products_item_info {
+    flex: 1;
+}
+
+.shop_haiphonglife_shop_products_filter_new_products_item_info_title {
+    font-size: 0.85rem;
+    color: #333;
+    margin: 0;
+    line-height: 1.3;
+}
+
+.shop_haiphonglife_shop_products_filter_new_products_item_info_price {
+    font-size: 0.85rem;
+    color: #e53935;
+    margin: 0.2rem 0 0;
+    font-weight: bold;
+}
+
+
+.shop_haiphonglife_shop_products_content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+}
+
+.shop_haiphonglife_shop_products_content_filter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shop_haiphonglife_shop_products_content_filter_total {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.shop_haiphonglife_shop_products_content_filter_total span {
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+
+.shop_haiphonglife_shop_products_content_filter_select {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0.5rem 0;
+    border-radius: 8px;
+    background: #f9f9f9;
+    /* nền nhẹ */
+}
+
+.shop_haiphonglife_shop_products_content_filter_select label {
+    font-weight: 500;
+    color: #444;
+    font-size: 0.95rem;
+    margin-right: 0.5rem;
+}
+
+.shop_haiphonglife_shop_products_content_filter_select select {
+    appearance: none;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 0.4rem 2rem 0.4rem 0.6rem;
+    /* thêm khoảng cách để đặt icon */
+    border-radius: 6px;
+    font-size: 0.95rem;
+    color: #333;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    position: relative;
+    background-image: url('data:image/svg+xml;utf8,<svg fill="%23333" height="20" viewBox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 0.6rem center;
+    background-size: 1rem;
+}
+
+.shop_haiphonglife_shop_products_content_filter_select select:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.15);
+}
+
+.shop_haiphonglife_shop_products_content_filter_select_sort,
+.shop_haiphonglife_shop_products_content_filter_select_show {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.shop_haiphonglife_shop_products_content_filter_select option {
+    color: #333;
+    background: #fff;
+}
+
+.shop_haiphonglife_shop_products_content_list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 1rem;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.shop_haiphonglife_shop_products_content_list_item {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.shop_haiphonglife_shop_products_content_list_item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+
+.shop_haiphonglife_shop_products_content_list_item_label {
+    background: #ff4c4c;
+    color: #fff;
+    font-weight: bold;
+    font-size: 0.75rem;
+    padding: 0.3rem 0.5rem;
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    border-radius: 4px;
+    z-index: 200;
+}
+
+.shop_haiphonglife_shop_products_content_list_item_image {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    border-bottom: 1px solid #eee;
+}
+
+.shop_haiphonglife_shop_products_content_list_item_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.shop_haiphonglife_shop_products_content_list_item:hover .shop_haiphonglife_shop_products_content_list_item_image img {
+    transform: scale(1.05);
+}
+
+.shop_haiphonglife_shop_products_content_list_item_category {
+    margin-top: 0.5rem;
+    color: #888;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.shop_haiphonglife_shop_products_content_list_item_title {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+    padding: 0.3rem 0.5rem;
+}
+
+.shop_haiphonglife_shop_products_content_list_item_star {
+    color: #f6b100;
+    font-size: 0.85rem;
+    text-align: center;
+}
+
+.shop_haiphonglife_shop_products_content_list_item_price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0.5rem 0;
+}
+
+.shop_haiphonglife_shop_products_content_list_item_price_new {
+    color: #e53935;
+    font-weight: 700;
+}
+
+.shop_haiphonglife_shop_products_content_list_item_price_old {
+    color: #999;
+    text-decoration: line-through;
+    font-size: 0.85rem;
+}
+
+.shop_haiphonglife_shop_products_content_list_item_addtocart {
+    text-align: center;
+    margin: 0.5rem;
+}
+
+.shop_haiphonglife_shop_products_content_list_item_addtocart button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    background: var(--primary-color);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.shop_haiphonglife_shop_products_content_list_item_addtocart button:hover {
+    background: var(--secondary-color);
+}
+
+.shop_haiphonglife_shop_products_content_list_item_addtocart svg {
+    width: 16px;
+    height: 16px;
+    fill: #fff;
+}
+
+.shop_haiphonglife_shop_products_content_pagination {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.shop_haiphonglife_shop_products_content_pagination .pagination {
+    display: flex;
+    gap: 0.5rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.shop_haiphonglife_shop_products_content_pagination .page-item {
+    flex: 0 0 auto;
+}
+
+.shop_haiphonglife_shop_products_content_pagination .page-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border: 2px solid var(--primary-color);
+    border-radius: 50%;
+    color: var(--primary-color);
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.shop_haiphonglife_shop_products_content_pagination .page-link svg {
+    width: 16px;
+    height: 16px;
+    fill: var(--primary-color);
+    transition: fill 0.3s ease;
+}
+
+.shop_haiphonglife_shop_products_content_pagination .page-link:hover {
+    background: var(--primary-color);
+    color: #fff;
+}
+
+.shop_haiphonglife_shop_products_content_pagination .page-link:hover svg {
+    fill: #fff;
+}
+
+.shop_haiphonglife_shop_products_content_pagination .page-item.active .page-link {
+    background: var(--primary-color);
+    color: #fff;
+    font-weight: bold;
+}
+
+.shop_haiphonglife_shop_products_content_pagination .page-item.active .page-link svg {
+    fill: #fff;
+}

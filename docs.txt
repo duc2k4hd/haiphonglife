@@ -1,0 +1,9 @@
+Cấu trúc Sku products: [Thương hiệu] - [Loại sản phẩm] - [ID]
+Bộ: ZENKONU-BO-104
+Áo: ZENKONU-AO-104
+Quần: ZENKONU-QUAN-104
+
+Cấu trúc Sku product_details: [Thương hiệu] - [Loại sản phẩm] - [Màu sắc] - [Kích cỡ] - [ID]
+Bộ: ZENKONU-BO-DO-M-104
+Áo: ZENKONU-AO-DO-L-104
+Quần: ZENKONU-QUAN-DO-M-104

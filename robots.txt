@@ -1,0 +1,28 @@
+# Cho phép tất cả bot truy cập
+User-agent: *
+
+# ❌ Chặn thư mục nhạy cảm hoặc không có nội dung SEO
+Disallow: /admin
+Disallow: /dashboard
+Disallow: /login
+Disallow: /register
+Disallow: /password
+Disallow: /cart
+Disallow: /checkout
+Disallow: /index.php
+
+# ❌ Chặn các URL có truy vấn tìm kiếm (tránh index trùng lặp)
+Disallow: /*?*
+Disallow: /*&*
+
+# ✅ Cho phép các asset tĩnh (CSS, JS, ảnh)
+Allow: /assets/
+Allow: /storage/
+Allow: *.js
+Allow: *.css
+Allow: *.png
+Allow: *.jpg
+Allow: *.webp
+
+# ✅ Khai báo sơ đồ trang web
+Sitemap: https://haiphonglife/sitemap.xml

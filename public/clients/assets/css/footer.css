@@ -1,0 +1,137 @@
+.shop__haiphonglife_footer {
+  background-color: var(--support-color);
+  color: white;
+  padding: 3rem 2rem 1.5rem;
+  font-size: 0.95rem;
+}
+
+.shop__haiphonglife_footer_content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+}
+
+.shop__haiphonglife_footer_content_business img {
+  width: 180px;
+  height: 55px;
+  margin-bottom: 1rem;
+}
+
+.shop__haiphonglife_footer_content_business_title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: white;
+}
+
+.shop__haiphonglife_footer_content_business_desc,
+.shop__haiphonglife_footer_content_business_address,
+.shop__haiphonglife_footer_content_business_phone,
+.shop__haiphonglife_footer_content_business_email,
+.shop__haiphonglife_footer_content_business_hours {
+  margin: 0.2rem 0;
+  line-height: 1.4;
+}
+
+.shop__haiphonglife_footer_content_business_socials {
+  margin-top: 0.5rem;
+  display: flex;
+  column-gap: 10px;
+}
+
+.shop__haiphonglife_footer_content_business_socials a img {
+  width: 34px;
+  height: 34px;
+  margin-right: 0.5rem;
+  transition: transform 0.3s ease;
+}
+
+.shop__haiphonglife_footer_content_business_socials a:hover img {
+  transform: scale(1.1);
+}
+
+.shop__haiphonglife_footer_content_company_title,
+.shop__haiphonglife_footer_content_accounts_title,
+.shop__haiphonglife_footer_content_corporate_title,
+.shop__haiphonglife_footer_content_services_title,
+.shop__haiphonglife_footer_content_newsletter_title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: white;
+}
+
+.shop__haiphonglife_footer_content_company_links,
+.shop__haiphonglife_footer_content_accounts_links,
+.shop__haiphonglife_footer_content_corporate_links,
+.shop__haiphonglife_footer_content_services_links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.shop__haiphonglife_footer_content_company_links a,
+.shop__haiphonglife_footer_content_accounts_links a,
+.shop__haiphonglife_footer_content_corporate_links a,
+.shop__haiphonglife_footer_content_services_links a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.shop__haiphonglife_footer_content_company_links a:hover,
+.shop__haiphonglife_footer_content_accounts_links a:hover,
+.shop__haiphonglife_footer_content_corporate_links a:hover,
+.shop__haiphonglife_footer_content_services_links a:hover {
+  color: white;
+}
+
+.shop__haiphonglife_footer_content_newsletter_desc {
+  margin-bottom: 0.5rem;
+}
+
+.shop__haiphonglife_footer_content_newsletter_form {
+  display: flex;
+  margin-top: 0.5rem;
+}
+
+.shop__haiphonglife_footer_content_newsletter_form input[type="email"] {
+  flex: 1;
+  padding: 0.5rem 0.75rem;
+  border: none;
+  border-radius: 0.25rem 0 0 0.25rem;
+  outline: none;
+  font-size: 0.9rem;
+}
+
+.shop__haiphonglife_footer_content_newsletter_form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 0 0.25rem 0.25rem 0;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.shop__haiphonglife_footer_content_newsletter_form button:hover {
+  background-color: #0056b3;
+}
+
+.shop__haiphonglife_footer_bottom {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.85rem;
+  color: white;
+}
+
+.shop__haiphonglife_footer_bottom a {
+  color: green;
+  font-weight: 900;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.shop__haiphonglife_footer_bottom a:hover {
+  color: #fff;
+}
